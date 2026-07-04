@@ -22,7 +22,7 @@ jobs:
       - run: npm ci
 
       - name: Build Electron app
-        run: npx electron-builder --win --config.publish.never=true
+        run: npx electron-builder --win --publish never
 
       - name: Upload installer to Release
         uses: softprops/action-gh-release@v2
