@@ -6,7 +6,7 @@
   "scripts": {
     "start": "electron .",
     "build": "electron-builder",
-    "build:portable": "electron-builder --win portable",
+    "build:portable": "electron-builder --win portable --x64",
     "build:dir": "electron-builder --dir",
     "publish": "electron-builder --win --publish always"
   },
@@ -26,12 +26,6 @@
       "target": [
         {
           "target": "nsis",
-          "arch": [
-            "x64"
-          ]
-        },
-        {
-          "target": "portable",
           "arch": [
             "x64"
           ]
