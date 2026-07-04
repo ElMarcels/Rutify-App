@@ -1,6 +1,6 @@
 {
   "name": "rutify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Routine management desktop app with liquid glass design",
   "main": "main.js",
   "scripts": {
